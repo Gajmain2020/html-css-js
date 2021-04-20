@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS FONTS</title>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Zen+Dots&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Anton&family=Roboto+Mono:wght@100&family=Zen+Dots&display=swap">               <!--LINKING WEB FONT-->
+    <style>
+        h3{
+            color: rgb(0, 0,0 );
+            background-color: rgb(102, 102, 102);
+            border: 3px solid black ;
+            border-radius: 5px;
+            font-family: roboto mono;
+            height: 30px;
+            width: 350px;
+            font-weight: 1000;
+            
+
+        }
+        p,ol {
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;     /*Sequential font , preference is in decreasing order, which ever is present firsty is taken is consideration*/
+            font-weight: bold;
+            font-style: italic;
+            line-height: 2em;
+            font-size: medium;
+        }
+
+        #secondPara {
+            font-family: 'anton';                   /*use of web font*/
+            font-size: 20px;
+        }
+    </style>
+
+</head>
+
+<body>
+    <h3>THIS CONTAINS DIFFERENT FONTS</h3>
+    <p>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod?
+
+    </p>
+
+    <p id="secondPara">This is another paragraph with different id.
+        There are two types in which we can add fonts to css one is
+    <ol>
+        <li>Web Saved Fonts</li>
+        <li>Web Fonts</li>
+    </ol>
+    </p>
+    <p> Those fonts which comes build in with most of the operating system are known as <strong>Web Safe Fonts.</strong>
+        And those font which are linked in the head body via internet or any other plateform is <strong>Web
+            Font.</strong>
+    </p>
+</body>
+
+</html>

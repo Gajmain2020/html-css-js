@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Types of SELECTORS in CSS</title>
+    <style>
+        /* ELEMENT SELECTED */
+        span {
+            color: brown;
+            background-color: gray;
+            border: 2px solid black;
+        }
+
+        /* ID SELECTED */
+        #uni {
+            color: blueviolet;
+            background-color: aqua;
+            border: 2px solid red;
+        }
+
+        /* CLASS SELECTOR */
+        .redBG {
+            background-color: red;
+        }
+
+        .colBlue {
+            color: blue;
+        }
+
+        /* GROUPING SELECTOR */
+        footer,
+        div {
+            color: maroon !important;
+            background-color: rgb(56, 161, 100);
+            border: 5px solid slategray;
+        }
+    </style>
+</head>
+
+<body>
+    <p>There are 4 type of selectors in CSS:</p>
+    <ol class="colBlue">
+        <li>Element Selector</li>
+        <li>Id Selector</li>
+        <li>Class Selector</li>
+        <li>Grouping Selector</li>
+    </ol>
+    <p>IN STYLE TAG HIGHEST PREFERENCE IS OF THE INLINE CSS AND THEN WHICH EVER IS WRITTEN LASTLY IN THE STYLE TAB IS TAKEN AS HIGHER PREFERENCE OTHERWISE IF PREWRITTEN CSS IS TO BE IMPLEMENTED USE !IMPORTANT</p>
+
+    <span>This is ELEMENT selected.</span>
+    <p id="uni">This is ID selected</p>
+    <p class="redBG colBlue">This is CLASS selected</p>
+    <div>This paragraph and footer down to this will be selected as group selector</div>
+    <footer>This is footer</footer>
+
+</body>
+
+</html>

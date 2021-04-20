@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORMS</title>
+</head>
+
+<body>
+    <h2>This is a form but with no backend</h2>
+    <form action="backend.php">
+        <div>
+            <label for="name">NAME:</label>
+            <input type="text" name="myName" id="name">
+        </div>
+        <br>
+        <div>
+            <label for="fname">Father's Name:</label>
+            <input type="text" name="myFname" id="fname">
+        </div>
+        <br>
+        <div>
+            <label for="dob">Date of Birth:</label>
+            <input type="date" name="myDOB" id="dob">
+        </div>
+        <br>
+        <div>
+            <label for="gender">GENDER:</label>
+            MALE<input type="radio" name="myGender" id="gender">
+            FEMALE<input type="radio" name="myGender" id="gender">
+            OTHER<input type="radio" name="myGender" id="gender">
+        </div>
+        <div>
+            <label for="checkbox">Do you want to SUBMIT</label>
+            <input type="checkbox" checked name="myCheckbox" id="checkbox">
+        </div>
+        <br>
+        <div>
+            <label for="description">
+                Give Comment <br>
+                <textarea name="myComment" id="description" cols="30" rows="10"></textarea>
+            </label>
+        </div>
+        <br>
+        <div>
+            <label for="car">Select car:
+                <select name="car" id="myCar" default>Select A Car
+                    <option value="select" default>Select Any One</option>
+                    <option value="swift">SWIFT</option>
+                    <option value="kinger">Kinger</option>
+                    <option value="kwid">Kwid</option>
+                </select>
+            </label>
+        </div>
+        <br>
+        <div>
+            <input type="submit" value="SUBMIT">
+            <input type="reset" value="RESET">
+        </div>
+
+    </form>
+
+</body>
+
+</html>
