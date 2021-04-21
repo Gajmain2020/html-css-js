@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NAVIGATION MENU</title>
+    <style>
+        .nav {
+            background-color: rgb(49, 48, 48);
+            border-radius: 15px;
+            height: 50px;
+        }
+
+        .nav ul {
+            padding: 8px 10px;
+            overflow: auto;
+
+        }
+
+        .nav li {
+            color: white;
+            /* display: inline; */
+            list-style-type: none;
+            font-size: 30px;
+            margin: auto 30px;
+            float: left;
+        }
+
+        .nav a {
+            color: white;
+            text-decoration: none;
+        }
+
+        #sbox {
+            float: right;
+            padding-top: 3px;
+            padding-right: 45px;
+        }
+
+        .nav input{
+            width: 250px;
+            height: 22px;
+
+        }
+
+        .nav a:hover{
+            color: crimson;
+            transition: 180ms;
+        }
+
+    </style>
+
+</head>
+
+<body>
+    <nav class="nav">
+        <ul>
+            <li><a href="#">Home</a> </li>
+            <li><a href="#">Programms</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact Me</a></li>
+            <div id="sbox">
+                <input type="text" name="search" id="search" placeholder="Search Here">
+            </div>
+        </ul>
+
+
+    </nav>
+</body>
+
+</html>

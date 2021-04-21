@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BUTTONS</title>
+    <style>
+        body {
+            background-color: rgb(245, 179, 179);
+            border: 5px solid black;
+            border-style: dashed double;
+            height: 500px;
+        }
+
+        .btn {
+            background-color: rgb(250, 76, 76);
+            border-radius: 15px;
+            color: rgb(32, 12, 0);
+            height: 40px;
+            width: 150px;
+            margin: 10px;
+            padding: 1px
+            
+        }
+
+        .btn:hover{
+           background-color: white;
+           border:1px solid red;
+            box-shadow: 5px 5px 5px 0px;
+            cursor: pointer;
+            transition: 100ms;
+        }
+
+        .btn:active{
+            background-color: rgb(207, 198, 198);
+        }
+
+        .link {
+            color: rgb(43, 42, 42);
+            text-decoration: none;
+            margin: 80px;
+            background-color: rgb(177, 171, 171);
+            border-radius: 15px;
+            padding: 12px 30px;
+            
+        }
+
+        .link:hover{
+            color: black;
+            border: 1px solid black;
+            box-shadow: 3px 5px 5px;
+            transition: 100ms;
+        }
+
+        .link:active{
+            background-color: gray;
+        }
+
+    </style>
+</head>
+
+<body>
+    <button>Simple Button</button>
+    <a href="#">LINK BUTTON</a><br><br><br>
+    <button class="btn">BUTTON WITH CLASS</button>
+    <a class="link" href="#">Style Link</a>
+</body>
+
+</html>
